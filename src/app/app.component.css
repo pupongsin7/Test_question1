@@ -1,0 +1,10 @@
+.flex-container {
+    display: flex;
+    height: 100vh;
+  }
+  @media only screen and (max-width: 600px) {
+    .flex-container {
+        width: 1600px !important;
+
+      }
+  }
